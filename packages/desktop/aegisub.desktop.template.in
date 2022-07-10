@@ -6,7 +6,7 @@ GenericName=Subtitle Editor
 Comment=Create and edit subtitles for film and videos.
 Exec=env GDK_BACKEND=x11 @AEGISUB_COMMAND@ %f
 TryExec=@AEGISUB_COMMAND@
-Icon=aegisub
+Icon=/usr/local/share/icons/hicolor/scalable/apps/aegisub.svg
 Terminal=false
 Categories=AudioVideo;AudioVideoEditing;
 Keywords=subtitles;subtitle;captions;captioning;video;audio;
