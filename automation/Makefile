@@ -7,7 +7,7 @@ DATA_AUTOMATION := \
 	$(sort $(wildcard $(d)include/aegisub/*))
 
 DATA_AUTOMATION_REL := $(subst $(d),,$(DATA_AUTOMATION))
-DATA_AUTOMATION_INSTALLED = $(addprefix $(DESTDIR)$(P_DATA), $(DATA_AUTOMATION_REL))
+DATA_AUTOMATION_INSTALLED = $(addprefix $(DESTDIR)$(P_DATA)/automation/, $(DATA_AUTOMATION_REL))
 
 $(DESTDIR)$(P_DATA)/automation/%: $(d)%
 	$(MKDIR_INSTALL)
