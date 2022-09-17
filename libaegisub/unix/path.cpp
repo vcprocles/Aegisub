@@ -44,7 +44,7 @@ void Path::FillPlatformSpecificPaths() {
 	agi::fs::path home = home_dir();
 	SetToken("?user", home/".aegisub");
 	SetToken("?local", home/".aegisub");
-	SetToken("?data", "/snap/aegisub-procles/current/usr/local/share/aegisub/");
+	SetToken("?data", "/snap/aegisub-procles/current/usr/local/share/aegisub");
 	SetToken("?dictionary", "/usr/share/hunspell");
 #else
 	agi::fs::path app_support = agi::util::GetApplicationSupportDirectory();
