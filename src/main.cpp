@@ -305,7 +305,7 @@ bool AegisubApp::OnInit() {
 			OPT_SET("App/First Start")->SetBool(false);
 #ifdef WITH_UPDATE_CHECKER
 			//int result = wxMessageBox(_("Do you want Aegisub to check for updates whenever it starts? You can still do it manually via the Help menu."),_("Check for updates?"), wxYES_NO | wxCENTER);
-			int result=wxNO
+			int result=wxNO;
 			OPT_SET("App/Auto/Check For Updates")->SetBool(result == wxYES);
 			try {
 				config::opt->Flush();
