@@ -43,7 +43,7 @@
     <AegisubUseFfms>true</AegisubUseFfms>
     <AegisubUseFftw>true</AegisubUseFftw>
     <AegisubUseOpenAl>false</AegisubUseOpenAl>
-    <AegisubUseUpdateChecker>true</AegisubUseUpdateChecker>
+    <AegisubUseUpdateChecker>false</AegisubUseUpdateChecker>
     <CsriLibraryName>vsfilter.lib</CsriLibraryName>
     <StartupLog>false</StartupLog>
     <UpdateCheckerServer>updates.aegisub.org</UpdateCheckerServer>
